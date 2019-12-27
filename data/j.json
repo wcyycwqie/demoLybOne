@@ -1,0 +1,171 @@
+{
+	"number":[{
+		"stunum":1730,
+		"teanum":500
+	},
+	{
+		"money":322321,
+		"time": 400,
+		"poorstu":430
+	},
+	{
+		"firstlevel": 300,
+		"secondlevel":230,
+		"thirdlevel":440,
+		"forthlevel":140,
+		"fifthlevel":340,
+		"sixthlevel":280
+	},
+	{
+		"firstlevelmc": "一年级",
+		"secondlevelmc":"二年级",
+		"thirdlevelmc": "三年级",
+		"forthlevelmc": "四年级",
+		"fifthlevelmc": "五年级",
+		"sixthlevelmc": "六年级"
+	},
+	{
+		"one":"一月",
+		"two":"二月",
+		"three":"三月",
+		"four":"四月",
+		"five":"五月",
+		"six":"六月",
+		"seven":"七月",
+		"eight":"八月",
+		"nine":"九月",
+		"ten":"十月",
+		"eleven":"十一月",
+		"twelve":"十二月"		
+	}
+
+],
+	"class":[
+		{
+			"classname":"一年级",
+			"classnumber":300
+		},
+		{
+			"classname":"二年级",
+			"classnumber":230
+		},
+		{
+			"classname":"三年级",
+			"classnumber":440
+		},
+		{
+			"classname":"四年级",
+			"classnumber":140
+		},
+		{
+			"classname":"五年级",
+			"classnumber":340
+		},
+		{
+			"classname":"六年级",
+			"classnumber":280
+		}
+	],
+	"sexnumber":[
+		{
+			"classname":"一年级",
+			"boy":180,
+			"girl":120
+		},
+		{
+			"classname":"二年级",
+			"boy":110,
+			"girl":120
+		},
+		{
+			"classname":"三年级",
+			"boy":300,
+			"girl":140
+		},
+		{
+			"classname":"四年级",
+			"boy":70,
+			"girl":70
+		},
+		{
+			"classname":"五年级",
+			"boy":240,
+			"girl":100
+		},
+		{
+			"classname":"六年级",
+			"boy":120,
+			"girl":160
+		}
+	],
+	"name":[
+		{
+		"boy":"男生",
+		"girl":"女生",
+		"stumc":"学生人数",
+		"teamc":"老师人数"
+		}
+	],
+	"student":[
+    {"name":"小明",
+    "sex":"男",
+    "age":16,
+	"address":"北京",
+	"job":"web前端工程师"},
+	{
+	"name":"小红",
+    "sex":"女",
+    "age":14,
+	"address":"上海",
+	"job":"软件工程师"
+	},
+	{
+	"name":"小张",
+    "sex":"男",
+    "age":24,
+	"address":"广州",
+	"job":"网络工程师"
+	},
+	{
+	"name":"小陆",
+    "sex":"男",
+    "age":18,
+	"address":"深圳",
+	"job":"Android工程师"
+	},
+	{
+	"name":"小美",
+    "sex":"女",
+    "age":18,
+	"address":"广州",
+	"job":"前端工程师"
+	}
+],
+	"teacher":[
+	{
+		"name" : "张老师",
+		"sex" : "女",
+		"address" : "上海",
+		"job" : "高数老师"
+	},
+	{
+		"name" : "李老师",
+		"sex" : "女",
+		"address" : "北京",
+		"job" : "英语老师"
+	},
+	{
+		"name" : "高老师",
+		"sex" : "男",
+		"address" : "上海",
+		"job" : "体育老师"
+	},
+	{
+		"name" : "吴老师",
+		"sex" : "女",
+		"address" : "杭州",
+		"job" : "音乐老师"
+	}
+]
+
+}

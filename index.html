@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta content="favicon.ico" itemprop="image">
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="./css/index.css">
+  <link rel="stylesheet" href="./layui/css/layui.css">
+  <link rel="stylesheet" href="./images/icon/iconpack1/iconfont.css">
+  <script src="./javascript/jquery-3.3.1.js"></script>
+  <title>Record</title>
+</head>
+
+<body>
+  <div id="myContent" class="layui-container">
+    <div class="layui-row">
+      <div class="mindBox layui-col-md7">
+        <div class="title layui-row">
+          <h1>
+            Mind Storm
+          </h1>
+        </div>
+        <div class=" layui-row">
+          <button type="button" class="cardBox_btn layui-btn layui-btn-sm" title="点击隐藏或者显示">
+            <i class="layui-icon">&#xe67b</i>
+          </button>
+          <div class="cardBox layui-card">
+            <div class="layui-card-header"> <strong>实现思路</strong></div>
+            <div class="layui-card-body">
+              <p>页面元素已经添加完毕</p>
+              <p>需要实现的功能：</p>
+              <div class="layui-collapse" lay-filter="cardBox_one">
+                <div class="layui-colla-item">
+                  <div>
+                    <!-- 滚动条 -->
+                    <div class="layui-progress layui-progress-big" lay-filter="collaProbar_one"
+                       style="background-color: #d89fb2;">
+                      <div class="layui-progress-bar" lay-percent="" style="background-color: #a54d55;"></div>
+                    </div>
+                  </div>
+                  <h2 class="layui-colla-title">①点击发布，将文本框内容添加到下方列表，并且把内容和时间存入到本地存储里面</h2>
+                  <div class="layui-colla-content">
+                    1、 点击按钮根据文本框输入的内容创建元素，并将该元素插入到ul中
+                    2、本地存储localStorage
+                  </div>
+                </div>
+              </div>
+              <div class="layui-collapse" lay-filter="cardBox_one">
+                <div class="layui-colla-item">
+                  <h2 class="layui-colla-title">②点击删除，将列表中的这条记录删除，并且把本地存储的这一条记录对应的数据也删除</h2>
+                  <div class="layui-colla-content">
+                    1、事件委托，当点击的元素是删除按钮时，就将删除按钮的父级li元素从ul中删除
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="userBox layui-row">
+          <div class="qustArea layui-card">
+            <div class="qust_title layui-card-header">
+              <strong>问题 : </strong>
+              <span>确认开始吗？(如果确认请输入1)</span>
+            </div>
+            <div class="qust_case layui-card-body">
+
+            </div>
+
+          </div>
+          <div class="answerArea layui-card">
+            <div class="as_title layui-card-header">
+              <span class="tips">注意:</span>
+              <span class="tipsText">输入的答案需要完全符合选项中的答案 例如: A: 测试一下 | 输入框:测试一下 (不包括编号A) </span>
+            </div>
+            <div class="as_handle layui-card-body">
+              <input class="ipt_as layui-input-inline" type="text" placeholder="只输入选项的内容">
+              <input class="btn_ok layui-btn  layui-btn-radius " type="button" value="确定">
+            </div>
+
+          </div>
+        </div>
+        <div class="layui-row"></div>
+        <div class="layui-row"></div>
+
+      </div>
+      <div class="msgBox layui-col-md5">
+        <div class="msgTitle">
+          <h2>Record</h2>
+        </div>
+        <textarea name="msgArea" id="msgText" cols="30" rows="15" title="message" placeholder="最多1000个字符(Ctrl+Enter发布)"></textarea>
+        <div>
+          <input type="button" class="msgBtn layui-btn layui-btn-lg layui-btn-radius" value="发布">
+          <input type="button" class="hisBtn layui-btn layui-btn-lg layui-btn-radius " value="历史记录"
+            style="display: none;">
+
+        </div>
+        <div class="msgLog">
+          <ul>
+            <!-- <li id="testLi">
+              <span title="hahaha">举个例子！举个例子！举个例子！举个例子！举个例子！举个例子！举个例子！</span>
+              <span>12月3日 12:27:22</span>
+              <button class="btn_del layui-btn" data-id="911">删除</button>
+            </li> -->
+
+          </ul>
+        </div>
+      </div>
+    </div>
+
+
+  </div>
+
+
+
+
+
+  <script src="./layui/layui.js"></script>
+  <script src="./javascript/index.js"></script>
+</body>
+
+</html>

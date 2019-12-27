@@ -1,0 +1,180 @@
+body {
+  background-color: #ff4e4e48;
+}
+#myContent {
+  width: 100%;
+}
+#myContent button,
+#myContent input[type='button'] {
+  background: #a54d5594;
+}
+#myContent .mindBox {
+  padding: 0 10px;
+}
+#myContent .mindBox div,
+#myContent .mindBox span,
+#myContent .mindBox h1,
+#myContent .mindBox h2,
+#myContent .mindBox h3,
+#myContent .mindBox h4,
+#myContent .mindBox h5,
+#myContent .mindBox h6,
+#myContent .mindBox p,
+#myContent .mindBox button,
+#myContent .mindBox ul,
+#myContent .mindBox li,
+#myContent .mindBox ol,
+#myContent .mindBox th,
+#myContent .mindBox td,
+#myContent .mindBox a,
+#myContent .mindBox input {
+  color: #660C0B;
+}
+#myContent .mindBox div,
+#myContent .mindBox span {
+  font-size: 18px;
+}
+#myContent .mindBox .title {
+  margin: 10px 0;
+  text-align: center;
+}
+#myContent .mindBox .title h1 {
+  font-size: 40px;
+  font-weight: bold;
+  background-image: linear-gradient(to right, red, orange, brown, green, brown, orange, red, orange, brown, green, brown, orange, red);
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -ms-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 200% 100%;
+  animation: fontFlow 16s linear infinite;
+}
+#myContent .mindBox .userBox .qustArea .qust_title {
+  height: 100%;
+}
+#myContent .mindBox .userBox .qustArea .qust_title strong {
+  font-size: 24px;
+}
+#myContent .mindBox .userBox .qustArea .qust_title span {
+  font-size: 22px;
+}
+#myContent .mindBox .userBox .qustArea .qust_case p {
+  min-height: 50px;
+  line-height: 50px;
+  border-bottom: 1px dotted #a54d55;
+}
+#myContent .mindBox .userBox .answerArea .as_title {
+  height: 100%;
+}
+#myContent .mindBox .userBox .answerArea .as_handle .ipt_as {
+  width: 68%;
+}
+#myContent .startHide {
+  display: none;
+}
+#myContent .msgBox {
+  margin-top: 50px;
+  height: 650px;
+  background: rgba(182, 135, 226, 0.22);
+  border: 1px dotted rgba(146, 19, 75, 0.847);
+}
+#myContent .msgBox .msgTitle h2 {
+  width: 150px;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 40px;
+  padding: 10px 0;
+  font-weight: bolder;
+  color: rgba(68, 9, 9, 0.596);
+  background: linear-gradient(to right, rgba(202, 111, 6, 0.637), rgba(177, 9, 112, 0.705), #aa2b2b, #FF0, #b18716, rgba(150, 41, 41, 0.521), rgba(9, 194, 194, 0.74), #b32e2e, rgba(190, 67, 29, 0.87), #1ecccc, #742d2d, rgba(211, 233, 8, 0.897), rgba(179, 21, 21, 0.582));
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -ms-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 200% 100%;
+  animation: fontFlow 8s infinite linear;
+}
+#myContent .msgBox textarea {
+  display: block;
+  margin: 0 auto;
+  padding: 20px;
+  width: 99%;
+  font-size: 20px;
+  height: 250px;
+  box-sizing: border-box;
+}
+#myContent .msgBox .msgBtn {
+  margin: 15px 0;
+  background: radial-gradient(#385379, #ff090926);
+}
+#myContent .msgBox .msgLog {
+  overflow-y: auto;
+  height: 260px;
+  margin-bottom: 100px;
+}
+#myContent .msgBox .msgLog ul li {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 2px dotted rgba(10, 23, 111, 0.534);
+  font-size: 22px;
+  height: 50px;
+  line-height: 50px;
+  color: #FFF;
+}
+#myContent .msgBox .msgLog ul li span:first-child {
+  display: block;
+  padding: 0 10px;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  word-break: break-all;
+  flex: 8;
+  background-image: linear-gradient(to right, red, orange, brown, green, brown, orange, red, orange, brown, green, brown, orange, red);
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -ms-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 200% 100%;
+  animation: fontFlow2 10s infinite linear;
+}
+#myContent .msgBox .msgLog ul li span:nth-child(2) {
+  padding-right: 10px;
+  color: #F00;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 16px;
+  height: 100%;
+  line-height: 76px;
+}
+#myContent .msgBox .msgLog ul li .btn_del {
+  margin-top: 10px;
+  margin-right: 5px;
+  height: 35px;
+  line-height: 0px;
+  font-size: 18px;
+  background: radial-gradient(#650811, #ff090926);
+}
+@keyframes fontFlow {
+  0% {
+    opacity: 0;
+    background-position: 0 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    background-position: -100% 0;
+  }
+}
+@keyframes fontFlow2 {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: -100% 0;
+  }
+}

@@ -1,0 +1,87 @@
+{
+	"question": [{
+			"title": "1、第一步的操作?",
+			"A": "创建元素li并插入到列表中",
+			"B": "获取页面上需要用到的元素",
+			"C": "给发布按钮添加点击事件",
+			"result": "获取页面上需要用到的元素"
+
+		},
+		{
+			"title": "2、如何获取元素？",
+			"A": "document.querySelector()",
+			"B": "document.createElement()",
+			"C": "document.appendChild()",
+			"result": "document.querySelector()"
+
+		},
+		{
+			"title": "3、现在已经获取好需要用的元素，例如发布按钮，文本输入框等等，现在开始进行发布功能的制作。首先我打算给发布按钮绑定点击事件， 请问如何给元素注册事件？",
+			"A": "element.getElementsByClassName",
+			"B": "ele.onclick()=function(){}",
+			"C": "ele.onclick=function(){}",
+			"D": "ele.addEventListener('onclick',functoin(){})",
+			"result": "ele.onclick=function(){}"
+		},
+		{
+			"title": "4、现在已经给发布按钮绑定好点击事件，下一步添加事件处理程序。请问如何获取输入文本框的内容 (假设文本框元素的变量为: msgText) ",
+			"A": "msgText.getElementsByTagName()",
+			"B": "msgText.html()",
+			"C": "msgText.val()",
+			"D": "msgText.value",
+			"result": "msgText.value"
+		},
+		{
+			"title": "5、现在已经获取好了文本内容，然后我们现在要获取当前时间， 请问如何通过什么方法可以获取时间？",
+			"A": "new Array()",
+			"B": "new Data()",
+			"C": "Math.random()",
+			"D": "new Date()",
+			"result": "new Date()"
+		},
+		{
+			"title": "6、已经获取好文本内容和时间，现在需要把这些内容放到文本栏(ul)里面，下一步该怎么做？",
+			"A": "把文本内容和时间放在li里面",
+			"B": "创建新的li元素",
+			"C": "将元素li插入到文本栏",
+			"result": "创建新的li元素"
+		},
+		{
+			"title": "7、如何创建元素li？",
+			"A": "new element('li')",
+			"B": "document.createElement(li)",
+			"C": "document.createEvent('li')",
+			"D": "document.createElement('li')",
+			"result": "document.createElement('li')"
+		},
+		{
+			"title": "8、已经创建好新的元素li，然后我们就可以把刚刚获取的文本内容和时间都插入到li里面，请问用哪种方法可以往ul里面添加li？",
+			"A": "ul.append(li)",
+			"B": "ul.appendChild('li')",
+			"C": "children(li)",
+			"D": "ul.appendChild(li)",
+			"result": "ul.appendChild(li)"
+		},
+		{
+			"title": "9、很好,往页面添加内容的功能已经实现,但是数据还不能保存下来，所以我们可以通过什么方式来保存添加的数据呢？",
+			"A": "localData",
+			"B": "localStorage",
+			"C": "saveData",
+			"D": "localSave",
+			"result": "localStorage"
+		},
+		{
+			"title": "10、请问本地存储localStorage如何存储数据(假设：'value')到浏览器？",
+			"A": "localStorage.pushItem()",
+			"B": "localStorage.setItem('key')",
+			"C": "localStorage.setItem('key','value')",
+			"D": "localStorage.getItem('key','value')",
+			"result": "localStorage.setItem('key','value')"
+		},
+		{
+			"title": "11、OK，现在已经完成好了点击发布的功能 "
+		}
+
+	]
+
+}
